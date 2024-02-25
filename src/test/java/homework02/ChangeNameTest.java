@@ -31,8 +31,8 @@ public class ChangeNameTest extends AbstractTest{
                 By.xpath(" //span[@slot='title']")));
         Assertions.assertEquals("Editing Dummy 24875", searchId.getText());
 
-        String a = RandomStringUtils.randomAlphabetic(3); // генерит буквы
-        String b = RandomStringUtils.randomAlphanumeric(3); // генерит буквы и цифры
+        String a = RandomStringUtils.randomAlphabetic(3);
+        String b = RandomStringUtils.randomAlphanumeric(3);
         String newName = a + b;
 
         EditingDummyPage editingDummyPage = new EditingDummyPage(driver, wait);
