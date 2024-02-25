@@ -1,0 +1,7 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(¬«Å”ıÿÿÿÿ8ÀçßÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ƒƒ±³ùÿÿÿÿ8ÎçßÚ1
+g
+java:S1128"ERemove this unused import 'org.openqa.selenium.chrome.ChromeOptions'.(ÿ¾Ïóüÿÿÿÿ8Ï‹àÚ1
+h
+java:S1128"FRemove this unused import 'org.openqa.selenium.firefox.FirefoxDriver'.(Úª ÿÿÿÿÿ8Ğ‹àÚ1
