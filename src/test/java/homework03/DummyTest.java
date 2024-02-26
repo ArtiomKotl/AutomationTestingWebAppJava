@@ -2,7 +2,7 @@ package homework03;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import org.example.homework02.LoginPage;
+import org.example.homework03.LoginPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
