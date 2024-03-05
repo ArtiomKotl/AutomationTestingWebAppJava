@@ -7,10 +7,10 @@
 2) Перенастроить создание драйвера для возможности запускать тесты в Selenoid контейнерах
 3) В качестве решения приложить код (с изменениями в Before методах) и скриншоты успешного запуска тестов из Selenoid
 
-![My Image](/Screenshot_1.png)
-![My Image](/Screenshot_2.png)
-![My Image](/Screenshot_3.png)
-![My Image](/Screenshot_4.png)
+![My Image](/src/main/resources/Screenshot_1.png)
+![My Image](/src/main/resources/Screenshot_2.png)
+![My Image](/src/main/resources/Screenshot_3.png)
+![My Image](/src/main/resources/Screenshot_4.png)
 
 Задание 2. Добавить один тест на Selenide/Selenoid. Опционально: добавить Allure репортинг в этот проект.
 
