@@ -46,7 +46,7 @@ public class ProfilePage {
     public String getUploadFileName() {
         return newAvatarImageInput.getValue();
     }
-    public void uploadnewBirthDayDate(String date) {
+    public void uploadNewBirthDayDate(String date) {
         newBirthDayDateInput.shouldBe(visible).setValue(date);}
     public void clickSaveProfileUpdateData () {
         saveProfileUpdateData.shouldBe(visible, Duration.ofMillis(2000L)).click();

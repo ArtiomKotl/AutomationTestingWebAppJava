@@ -1,6 +1,5 @@
 package homework03;
 
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -21,7 +20,7 @@ public class AbstractTest {
     @BeforeEach
     public void setUpTest()  {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        Selenide.open("https://test-stand.gb.ru/login");
+//        Selenide.open("https://test-stand.gb.ru/login");
 
     }
 
