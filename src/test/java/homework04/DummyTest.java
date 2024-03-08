@@ -13,8 +13,6 @@ public class DummyTest extends AbstractTest {
 
     @Test
     void loginWithOutAuthorizationTest() {
-
-
         LoginPage loginPage = Selenide.page(LoginPage.class);
         loginPage.loginWithOutAuthorization();
         Selenide.sleep(5000);

@@ -17,7 +17,6 @@ import static com.codeborne.selenide.Selenide.$x;
 public class ChangeNameTest extends AbstractTest {
 
     @Test
-
     void dummyChangeNameTest() {
         LoginPage loginPage = Selenide.page(LoginPage.class);
         loginPage.loginInSystem(USERNAME, PASSWORD);

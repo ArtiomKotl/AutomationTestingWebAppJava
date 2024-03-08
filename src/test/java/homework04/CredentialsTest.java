@@ -15,7 +15,6 @@ import static com.codeborne.selenide.Selenide.$x;
 public class CredentialsTest extends AbstractTest {
 
     @Test
-        // Домашнее задание 2: задача 3
     void credentialsWindowTest()  {
         LoginPage loginPage = Selenide.page(LoginPage.class);
         loginPage.loginInSystem(USERNAME, PASSWORD);

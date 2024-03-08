@@ -21,12 +21,12 @@ public class ProfilePageTest extends AbstractTest {
 
         ProfilePage profilePage = page(ProfilePage.class);
         profilePage.clickEditProfile();
-        profilePage.uploadNewBirthDayDate("01.01.2001");
+        profilePage.uploadNewBirthDayDate("01.01.2011");
         Selenide.sleep(5000);
         profilePage.clickSaveProfileUpdateData();
         profilePage.clickCloseWidowEditingProfile();
 
-        Assertions.assertEquals("01.01.2001",profilePage.getDayOfBirthText());
+        Assertions.assertEquals("01.01.2011",profilePage.getDayOfBirthText());
         Selenide.sleep(5000L);
     }
 }
